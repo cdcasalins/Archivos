@@ -111,9 +111,9 @@ public class Formulario extends javax.swing.JFrame {
                     String linea = scan.nextLine();
                     String[] vString = linea.split(",");
                     
-                    long codigo = Long.parseLong(vString[0]);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-                    String nombre = vString[1];;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-                    double promedio  = Double.parseDouble(vString[2]);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                    long codigo = Long.parseLong(vString[0]);
+                    String nombre = vString[1];
+                    double promedio  = Double.parseDouble(vString[2]);
                     
                     model.addRow(new Object[]{codigo, nombre, promedio});
                                       
